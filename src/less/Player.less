@@ -1,0 +1,21 @@
+.player-page{
+  width:700px;
+  margin:auto;
+  margin-top:120px;
+  .volume-container{
+      position: relative;
+      top:-3px;
+      left:20px;
+      cursor: pointer;
+      &:hover .volume-wrapper{
+            opacity: 1;
+      }
+      .volume-wrapper{
+        opacity: 0;
+        transition: opacity .5s linear;
+        width: 60px;
+        display: inline-block;
+        
+      }
+  }
+}
